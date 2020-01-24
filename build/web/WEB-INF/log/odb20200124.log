@@ -1,0 +1,1298 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 00:01:37 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 00:01:37 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 00:01:37 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 00:02:22 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 00:02:22 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 00:02:22 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 00:05:37 #1 type.registry] 
+New type web.model.Car_Dealership
+
+[2020-01-24 00:05:37 #2 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 00:05:37 #3 type.registry] 
+New type web.model.Car
+
+[2020-01-24 00:05:37 #4 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 00:05:37 #5 type.registry] 
+New type web.model.Customer
+
+[2020-01-24 00:05:37 #6 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 00:06:35 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 00:06:35 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 00:06:35 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 00:06:38 #4 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-01-24 00:06:38 #5 type.registry] 
+New type com.objectdb.o.LMT
+
+[2020-01-24 00:06:38 #6 type.registry] 
+New type com.objectdb.o.VAL
+
+[2020-01-24 00:06:38 #7 type.registry] 
+New type com.objectdb.o.RFV
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 00:07:08 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 00:07:08 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 00:07:08 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 00:07:08 #4 type.registry] 
+New type java.util.ArrayList<web.model.Customer>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 00:08:08 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 00:08:08 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 00:08:08 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 00:09:54 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 00:09:54 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 00:09:54 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 00:31:52 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 00:31:52 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 00:31:52 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 01:28:58 #1 type.registry] 
+New type web.model.Parent
+
+[2020-01-24 01:28:58 #2 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 01:28:58 #3 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 01:28:58 #4 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 02:43:32 #1 type.registry] 
+New type web.model.Parent
+
+[2020-01-24 02:43:32 #2 type.registry] 
+New type web.model.Car_Dealership
+
+[2020-01-24 02:43:32 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 02:43:32 #4 type.registry] 
+New type web.model.Car
+
+[2020-01-24 02:43:32 #5 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 02:43:32 #6 type.registry] 
+New type web.model.Customer
+
+[2020-01-24 02:43:32 #7 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 02:46:56 #8 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-01-24 02:46:56 #9 type.registry] 
+New type java.util.ArrayList<web.model.Customer>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 02:50:35 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 02:50:35 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 02:50:35 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 02:51:02 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 02:51:02 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 02:51:02 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 02:51:02 #4 type.registry] 
+New type com.objectdb.o.LMT
+
+[2020-01-24 02:51:02 #5 type.registry] 
+New type com.objectdb.o.VAL
+
+[2020-01-24 02:51:02 #6 type.registry] 
+New type com.objectdb.o.RFV
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 02:55:15 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 02:55:15 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 02:55:15 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 03:06:39 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 03:06:39 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 03:06:39 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 03:08:03 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 03:08:03 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 03:08:03 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 03:10:59 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 03:10:59 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 03:10:59 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 03:14:04 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 03:14:04 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 03:14:04 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:04:57 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:04:57 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:04:57 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:07:37 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:07:37 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:07:37 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:09:49 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:09:49 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:09:49 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:15:39 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:15:39 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:15:39 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:19:25 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:19:25 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:19:25 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:39:59 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:39:59 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:39:59 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:43:28 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:43:28 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:43:28 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:45:50 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:45:50 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:45:50 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 04:48:24 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 04:48:24 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 04:48:24 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:15:17 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:15:17 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:15:17 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:20:34 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:20:34 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:20:34 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:22:15 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:22:15 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:22:15 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:24:09 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:24:09 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:24:09 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:27:21 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:27:21 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:27:21 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:32:26 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:32:26 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:32:26 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:33:15 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:33:15 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:33:15 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:34:48 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:34:48 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:34:48 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:36:08 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:36:08 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:36:08 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 05:37:30 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 05:37:30 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 05:37:30 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 06:25:29 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 06:25:29 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 06:25:29 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 06:30:03 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 06:30:03 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 06:30:03 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 06:30:03 #4 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:30:03 #5 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:30:03 #6 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:30:08 #7 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:30:08 #8 query] 
+Error during query execution: SELECT ob FROM Car_Dealership ob(null)
+
+[2020-01-24 06:30:08 #9 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:30:13 #10 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:30:13 #11 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:30:13 #12 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 06:31:55 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 06:31:55 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 06:31:55 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 06:31:55 #4 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:31:55 #5 query] 
+Error during query execution: SELECT ob FROM Car_Dealership ob(null)
+
+[2020-01-24 06:31:55 #6 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:31:57 #7 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:31:57 #8 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:31:57 #9 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 06:32:34 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 06:32:34 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 06:32:34 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 06:32:34 #4 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:34 #5 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:32:34 #6 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:40 #7 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:40 #8 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:32:40 #9 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:46 #10 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:46 #11 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:32:46 #12 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:50 #13 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:50 #14 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:32:50 #15 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:55 #16 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:55 #17 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:32:55 #18 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:58 #19 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:32:58 #20 query] 
+Error during query execution: SELECT ob FROM Car_Dealership ob(null)
+
+[2020-01-24 06:32:58 #21 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:34:19 #22 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:34:19 #23 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:34:19 #24 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 06:36:04 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 06:36:04 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 06:36:04 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 06:36:04 #4 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:04 #5 query] 
+Error during query execution: SELECT ob FROM Car_Dealership ob(null)
+
+[2020-01-24 06:36:04 #6 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:06 #7 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:06 #8 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:36:06 #9 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:08 #10 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:08 #11 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:36:08 #12 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:15 #13 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:15 #14 query] 
+Error during query execution: SELECT ob FROM Car ob(null)
+
+[2020-01-24 06:36:15 #15 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:18 #16 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:18 #17 query] 
+Error during query execution: SELECT ob FROM Car_Dealership ob(null)
+
+[2020-01-24 06:36:18 #18 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:21 #19 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:21 #20 query] 
+Error during query execution: SELECT ob FROM Car_Dealership ob(null)
+
+[2020-01-24 06:36:21 #21 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:33 #22 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:33 #23 query] 
+Error during query execution: SELECT ob FROM Car_Dealership ob(null)
+
+[2020-01-24 06:36:33 #24 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:37 #25 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-24 06:36:37 #26 query] 
+Error during query execution: SELECT ob FROM Car_Dealership ob(null)
+
+[2020-01-24 06:36:37 #27 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.VAR.K(VAR.java:299)
+	at com.objectdb.o.VAR.YN(VAR.java:261)
+	at com.objectdb.o.SYR.l(SYR.java:517)
+	at com.objectdb.o.QRC.j(QRC.java:194)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 06:38:48 #1 type.registry] 
+New type web.model.Parent
+
+[2020-01-24 06:38:48 #2 type.registry] 
+New type web.model.Car_Dealership
+
+[2020-01-24 06:38:48 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 06:38:48 #4 type.registry] 
+New type web.model.Car
+
+[2020-01-24 06:38:48 #5 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 06:38:48 #6 type.registry] 
+New type web.model.Customer
+
+[2020-01-24 06:38:48 #7 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 06:38:50 #8 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-01-24 06:38:57 #9 type.registry] 
+New type java.util.ArrayList<web.model.Customer>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 07:09:00 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 07:09:00 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 07:09:00 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-24 07:09:40 #4 type.registry] 
+New type com.objectdb.o.LMT
+
+[2020-01-24 07:09:40 #5 type.registry] 
+New type com.objectdb.o.VAL
+
+[2020-01-24 07:09:40 #6 type.registry] 
+New type com.objectdb.o.RFV
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 07:10:15 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 07:10:15 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 07:10:15 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 07:18:11 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 07:18:11 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 07:18:11 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 07:36:58 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 07:36:58 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 07:36:58 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 07:58:30 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 07:58:30 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 07:58:30 #3 type] 
+Type web.model.Customer is not enhanced.
+
