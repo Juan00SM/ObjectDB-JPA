@@ -65,8 +65,17 @@ public class Car_Servlet extends HttpServlet {
             case "remove":
                 remove(request, response);
                 break;
-                case "listcustomers":
+            case "listcustomers":
                 listCustomers(request, response);
+                break;
+                case "removecar":
+                removeCust(request, response);
+                break;
+            case "listcust":
+                listCust(request, response);
+                break;
+            case "newcar":
+                newCust(request, response);
                 break;
             default:
                 break;
@@ -86,13 +95,13 @@ public class Car_Servlet extends HttpServlet {
     }
 
     private void register(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Car car = new Car(request.getParameter("carmake"), request.getParameter("model"),request.getParameter("seats").isEmpty() ? 0 :Integer.valueOf(request.getParameter("seats")),
+        Car car = new Car(request.getParameter("carmake"), request.getParameter("model"), request.getParameter("seats").isEmpty() ? 0 : Integer.valueOf(request.getParameter("seats")),
                 request.getParameter("depositCapacity").isEmpty() ? 0 : Float.parseFloat(request.getParameter("depositCapacity")));
-        
-        if (request.getParameter("cardealership")!=null) {
-            car.setCarDealership((Car_Dealership)this.dao.getFindObject(Car_Dealership.class, Long.parseLong(request.getParameter("cardealership"))));
+
+        if (request.getParameter("cardealership") != null) {
+            car.setCarDealership((Car_Dealership) this.dao.getFindObject(Car_Dealership.class, Long.parseLong(request.getParameter("cardealership"))));
         }
-        
+
         this.dao.addPersistObject(car);
 
         toList(request, response);
@@ -111,14 +120,15 @@ public class Car_Servlet extends HttpServlet {
         request.setAttribute("list", list);
         dispatcher.forward(request, response);
     }
+
     private void listCustomers(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/Car/customers.jsp");
 
-        List<Customer> list = this.dao.getAllObjectbyClass(Customer.class, Car.class,Long.parseLong(request.getParameter("id")), true);
+        List<Customer> list = this.dao.getAllObjectbyIdClass(Customer.class, Car.class, Long.parseLong(request.getParameter("id")), true);
         request.setAttribute("list", list);
-        request.setAttribute("id", request.getParameter("id"));
-        
+        request.setAttribute("id", Long.parseLong(request.getParameter("id")));
+
         dispatcher.forward(request, response);
     }
 
@@ -132,7 +142,7 @@ public class Car_Servlet extends HttpServlet {
 
     private void edit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        Car car = new Car(request.getParameter("carmake"), request.getParameter("model"), request.getParameter("seats").isEmpty() ? 0 :Integer.valueOf(request.getParameter("seats")),
+        Car car = new Car(request.getParameter("carmake"), request.getParameter("model"), request.getParameter("seats").isEmpty() ? 0 : Integer.valueOf(request.getParameter("seats")),
                 request.getParameter("depositCapacity").isEmpty() ? 0 : Float.parseFloat(request.getParameter("depositCapacity")));
         car.setId(Long.parseLong(request.getParameter("id")));
         this.dao.modifyUpdateObject(Car.class, car);
@@ -141,11 +151,42 @@ public class Car_Servlet extends HttpServlet {
 
     private void remove(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         if (!request.getParameter("id").equals("all")) {
-            this.dao.removeDeleteObject(Car.class, Long.parseLong(request.getParameter("id")));
+            this.dao.removeDeleteObjectByClass(Car.class, Long.parseLong(request.getParameter("id")));
         } else {
             this.dao.removeDeleteObjectAll(Car.class);
         }
         toList(request, response);
 
+    }
+    private void removeCust(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if (!request.getParameter("idcu").equals("all")) {
+            this.dao.removeObjectOfColletion(Long.parseLong(request.getParameter("idcu")),Car_Dealership.class,Long.parseLong(request.getParameter("idc")));
+        }else{
+            this.dao.removeObjectOfColletion(Long.parseLong("-1"),Car_Dealership.class,Long.parseLong(request.getParameter("idc")));
+        }
+        request.setAttribute("id", Long.parseLong(request.getParameter("idc")));
+        listCust(request, response);
+
+    }
+    private void listCust(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/Car/customers.jsp");
+        Long id = request.getParameter("id")==null?(Long)request.getAttribute("id"):Long.parseLong(request.getParameter("id"));
+        List<Car> list = this.dao.getAllObjectbyIdClass(Customer.class, Car.class, id,true);
+        request.setAttribute("list", list);
+        List<Car> cust = this.dao.getAllObjectbyIdClass(Customer.class, Car.class, id,false);
+        request.setAttribute("cust", cust);
+        request.setAttribute("id", id);
+        dispatcher.forward(request, response);
+    }
+    private void newCust(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        Long idc = Long.parseLong(request.getParameter("custselect"));
+        Long id = Long.parseLong(request.getParameter("id"));
+        Car car = (Car)this.dao.getFindObject(Car.class, id);
+        Customer cust = (Customer)this.dao.getFindObject(Customer.class, idc);
+        car.addCustomer(cust);
+        this.dao.modifyUpdateObject(Car.class, car);
+        request.setAttribute("id", id);
+        listCust(request, response);
     }
 }

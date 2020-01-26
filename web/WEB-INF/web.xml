@@ -5,6 +5,10 @@
         <servlet-class>web.servlets.Car_Servlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>CarDealership_Servlet</servlet-name>
+        <servlet-class>web.servlets.CarDealership_Servlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>Customer_Servlet</servlet-name>
         <servlet-class>web.servlets.Customer_Servlet</servlet-class>
     </servlet>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>Customer_Servlet</servlet-name>
         <url-pattern>/Customer_Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CarDealership_Servlet</servlet-name>
+        <url-pattern>/CarDealership_Servlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

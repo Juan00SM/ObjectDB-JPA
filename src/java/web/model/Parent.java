@@ -12,8 +12,6 @@ package web.model;
 public abstract class Parent {
     protected Long id;
 
-    
-
     public Parent() {
     }
     public abstract boolean selfUpdate(Parent ob);

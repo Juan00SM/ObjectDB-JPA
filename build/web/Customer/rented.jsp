@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.util.*,web.model.Car"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <!DOCTYPE html>
 <html>
@@ -13,13 +14,23 @@
         <title>Administrar</title>
     </head>
     <body>
-        <h1>Lista de Coches rentados por el cliente: <% request.getAttribute("id"); %></h1>
+        <h1>Lista de Coches rentados por el cliente: <% out.println(request.getAttribute("id"));%></h1>
         <table>
             <tr>
                 <td><a href="Customers?action=list" >Atrás</a> </td>
                 <td>- - -</td>
-                <td><a href="Customers?action=newcar" >Insertar Nuevo</a> </td>
-                <td><a href="Customers?action=removecar&id=all" >Borrar todos</a> </td>
+                <td><a href="Customers?action=removecar&idc=all&idcu=<%= request.getAttribute("id")%>" >Borrar todos</a> </td>
+                <td>- - - - - - -</td>
+                <td><form method="POST" action="Customers?action=newcar&id=<%= request.getAttribute("id")%>">
+                    <select name="carselect">
+                        <option value="-1" selected="true">Selecciona un coche</option>
+                        <c:forEach var="c" items="${cars}">
+                            <option value="${c.getId()}">${c.getCarmake()} - ${c.getModel()} - ${c.getSeats()} asientos</option>
+                        </c:forEach>
+                    </select>
+                    <input type="submit" value="Añadir" />
+                    </form>
+                </td>
             </tr>
         </table>
 
@@ -43,7 +54,7 @@
                     <td><c:out value="${car.getSeats()}"/></td>
                     <td><c:out value="${car.getDepositCapacity()}"/></td>
                     <td><c:out value="${car.getCarDealership().getId()}"/></td>
-                    <td><a href="Customers?action=removecar&id=<c:out value="${car.getId()}"/>">Eliminar</a> </td>				
+                    <td><a href="Customers?action=removecar&idcu=<%= request.getAttribute("id")%>&idc=<c:out value="${car.getId()}"/>">Eliminar</a> </td>				
                 </tr>
             </c:forEach>
         </table>

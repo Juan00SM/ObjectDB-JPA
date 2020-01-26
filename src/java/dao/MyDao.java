@@ -7,11 +7,20 @@ package dao;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.jdo.JDOHelper;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Query;
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Join;
+import javax.persistence.criteria.JoinType;
+import javax.persistence.criteria.Root;
+import javax.persistence.metamodel.EntityType;
 import web.model.Car;
 import web.model.Car_Dealership;
+import web.model.Customer;
 import web.model.Parent;
 
 /**
@@ -86,13 +95,29 @@ public class MyDao {
         }
         return true;
     }
-
-    public boolean removeDeleteObject(Object ob) {
-
+    //Clase a borrar, id a borrar(-1 todos), clase de donde borrar, id de donde borrar
+    public boolean removeObjectOfColletion(Long idcl, Class cls, Long idcls) {
         try {
             this.em = this.emf.createEntityManager();
+            
             this.em.getTransaction().begin();
-            this.em.remove(ob);
+            String option = cls.getSimpleName();
+            switch (option) {
+                case "Car_Dealership":
+                    Car_Dealership ob = (Car_Dealership) this.em.find(cls, idcls);
+                    ob.removeCar(idcl);
+                    break;
+                    
+                case "Car":
+                    Car ob2 = (Car) this.em.find(cls, idcls);
+                    ob2.removeCustomer(idcl);
+                    break;
+                    
+                case "Customer":
+                    Customer ob3 = (Customer) this.em.find(cls, idcls);
+                    ob3.removeRentedCar(idcl);
+                    break;
+            }
             this.em.getTransaction().commit();
 
         } finally {
@@ -107,7 +132,7 @@ public class MyDao {
         return true;
     }
 
-    public boolean removeDeleteObject(Class cl, Long id) {
+    public boolean removeDeleteObjectByClass(Class cl, Long id) {
 
         try {
             Parent ob = this.getFindObject(cl, id);
@@ -160,15 +185,28 @@ public class MyDao {
             return null;
         }
     }
-    public List getAllObjectbyClass(Class cl, Class cls, Long id, boolean opt) {
+    //buscar cl para cls con id, true si los tiene, false los que no
+
+    public List getAllObjectbyIdClass(Class cl, Class cls, Long id, boolean opt) {
         try {
-            this.em = this.emf.createEntityManager();
-            Query query = this.em.createQuery("SELECT ob FROM " + cl.getSimpleName() + " ob", cl);
-            return query.getResultList();
+            if (opt) {
+                this.em = this.emf.createEntityManager();
+                String sql = "SELECT obj FROM " + cls.getSimpleName() + " ob JOIN ob." + cl.getSimpleName().toLowerCase() + "s obj where ob.id=" + id;
+                TypedQuery<Parent> query = em.createQuery(sql, cl);
+                List<Parent> resultList = query.getResultList();
+                return resultList;
+            } else {
+                this.em = this.emf.createEntityManager();
+                String sql = "SELECT obj FROM " + cl.getSimpleName() + " obj where obj." + cls.getSimpleName().toLowerCase() + "s is null";
+                TypedQuery<Parent> query = em.createQuery(sql, cl);
+                List<Parent> resultList = query.getResultList();
+                return resultList;
+            }
 
         } catch (Exception e) {
+            e.printStackTrace();
             em.close();
-            return null;
+            return new ArrayList();
         }
     }
 

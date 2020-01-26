@@ -5,7 +5,9 @@
  */
 package web.servlets;
 
+import com.sun.xml.internal.ws.api.message.ExceptionHasMessage;
 import dao.MyDao;
+import java.io.Console;
 import web.model.Car_Dealership;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -73,8 +75,14 @@ public class CarDealership_Servlet extends HttpServlet {
             case "remove":
                 remove(request, response);
                 break;
+            case "removecar":
+                removeCar(request, response);
+                break;
             case "listcars":
                 listCars(request, response);
+                break;
+            case "newcar":
+                newCar(request, response);
                 break;
             default:
                 break;
@@ -119,11 +127,23 @@ public class CarDealership_Servlet extends HttpServlet {
     private void listCars(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/CarDealership/cars.jsp");
-
-        List<Car> list = this.dao.getAllObjectbyClass(Car.class, Car_Dealership.class, Long.parseLong(request.getParameter("id")),true);
+        Long id = request.getParameter("id")==null?(Long)request.getAttribute("id"):Long.parseLong(request.getParameter("id"));
+        List<Car> list = this.dao.getAllObjectbyIdClass(Car.class, Car_Dealership.class, id,true);
         request.setAttribute("list", list);
-        request.setAttribute("id", request.getParameter("id"));
+        List<Car> cars = this.dao.getAllObjectbyIdClass(Car.class, Car_Dealership.class, id,false);
+        request.setAttribute("cars", cars);
+        request.setAttribute("id", id);
         dispatcher.forward(request, response);
+    }
+    private void newCar(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        Long idc = Long.parseLong(request.getParameter("carselect"));
+        Long id = Long.parseLong(request.getParameter("id"));
+        Car_Dealership carD = (Car_Dealership)this.dao.getFindObject(Car_Dealership.class, id);
+        Car car = (Car)this.dao.getFindObject(Car.class, idc);
+        carD.addCar(car);
+        this.dao.modifyUpdateObject(Car_Dealership.class, carD);
+        request.setAttribute("id", id);
+        listCars(request, response);
     }
     
 
@@ -146,11 +166,21 @@ public class CarDealership_Servlet extends HttpServlet {
 
     private void remove(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         if (!request.getParameter("id").equals("all")) {
-            this.dao.removeDeleteObject(Car_Dealership.class, Long.parseLong(request.getParameter("id")));
+            this.dao.removeDeleteObjectByClass(Car_Dealership.class, Long.parseLong(request.getParameter("id")));
         }else{
             this.dao.removeDeleteObjectAll(Car_Dealership.class);
         }
         toList(request, response);
+
+    }
+    private void removeCar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if (!request.getParameter("idc").equals("all")) {
+            this.dao.removeObjectOfColletion(Long.parseLong(request.getParameter("idc")),Car_Dealership.class,Long.parseLong(request.getParameter("idcd")));
+        }else{
+            this.dao.removeObjectOfColletion(Long.parseLong("-1"),Car_Dealership.class,Long.parseLong(request.getParameter("idcd")));
+        }
+        request.setAttribute("id", Long.parseLong(request.getParameter("idcd")));
+        listCars(request, response);
 
     }
 }

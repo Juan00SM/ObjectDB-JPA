@@ -28,19 +28,20 @@ public class Car_Dealership extends Parent implements Serializable {
     private static final long serialVersionUID = 1L;
 
     // Persistent Fields:
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     Long id;
-    
+
     @Temporal(TemporalType.TIMESTAMP)
     private Date signingDate;
-    
-    @OneToMany(cascade = CascadeType.ALL,mappedBy = "car_dealership", fetch = FetchType.LAZY)
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "car_dealerships", fetch = FetchType.LAZY, orphanRemoval = true)
     private List<Car> cars;
-    
+
     private String name;
     private String ceo;
     private double annualProfit;
-    
+
     // Constructors:
     public Car_Dealership(String name, String ceo, double annualProfit) {
         this.signingDate = new Date(System.currentTimeMillis());
@@ -97,20 +98,30 @@ public class Car_Dealership extends Parent implements Serializable {
     public void setAnnualProfit(double annualProfit) {
         this.annualProfit = annualProfit;
     }
-    public boolean addCar(Car car){
+
+    public boolean addCar(Car car) {
         return this.cars.add(car);
     }
-    
-    public boolean removeRentedCar(Long id){
-        int count = 0;
-        for (Car car : this.cars) {
-            if (car.getId() == id) {
-                this.cars.remove(count);
-                return true;
+
+    public boolean removeCar(Long id) {
+        if (id != -1) {
+            int count = 0;
+            for (Car car : this.cars) {
+                if (car.getId() == id) {
+                    this.cars.remove(count);
+                    return true;
+                }
+                count++;
             }
-            count++;
+            return false;
+        } else {
+            int count = 0;
+            for (Car car : this.cars) {
+                this.cars.remove(count);
+                count++;
+            }
+            return true;
         }
-        return false;
     }
 
     @Override
@@ -120,9 +131,9 @@ public class Car_Dealership extends Parent implements Serializable {
 
     @Override
     public boolean selfUpdate(Parent ob) {
-        Car_Dealership v = (Car_Dealership)ob; 
+        Car_Dealership v = Car_Dealership.class.cast(ob);
         ArrayList<Long> ids = new ArrayList<>();
-        
+
         this.setName(v.getName());
         this.setCeo(v.getCeo());
         this.setAnnualProfit(v.getAnnualProfit());
@@ -137,5 +148,5 @@ public class Car_Dealership extends Parent implements Serializable {
         }
         return true;
     }
-    
+
 }

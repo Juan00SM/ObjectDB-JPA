@@ -1,0 +1,927 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 11:13:50 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 11:13:50 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 11:13:50 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 11:36:55 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 11:36:55 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 11:36:55 #3 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 11:37:34 #4 type.registry] 
+New type web.model.Parent
+
+[2020-01-26 11:37:34 #5 type.registry] 
+New type web.model.Car_Dealership
+
+[2020-01-26 11:37:34 #6 type.registry] 
+New type web.model.Car
+
+[2020-01-26 11:37:34 #7 type.registry] 
+New type web.model.Customer
+
+[2020-01-26 11:37:48 #8 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 12:36:19 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 12:36:19 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 12:36:19 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:17:03 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:17:03 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:17:03 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:19:30 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:19:30 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:19:30 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:25:01 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:25:01 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:25:01 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:26:48 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:26:48 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:26:48 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:27:20 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:27:20 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:27:20 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:33:43 #1 type.registry] 
+New type web.model.Parent
+
+[2020-01-26 13:33:43 #2 type.registry] 
+New type web.model.Car_Dealership
+
+[2020-01-26 13:33:43 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:33:43 #4 type.registry] 
+New type web.model.Car
+
+[2020-01-26 13:33:43 #5 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:33:43 #6 type.registry] 
+New type web.model.Customer
+
+[2020-01-26 13:33:43 #7 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 13:34:01 #8 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-01-26 13:34:35 #9 type.registry] 
+New type java.util.ArrayList<web.model.Customer>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:36:21 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:36:21 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:36:21 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:39:46 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:39:46 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:39:46 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:42:45 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:42:45 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:42:45 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:44:13 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:44:13 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:44:13 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:44:54 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:44:54 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:44:54 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:48:37 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:48:37 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:48:37 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:50:00 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:50:00 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:50:00 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:54:16 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:54:16 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:54:16 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:56:52 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:56:52 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:56:52 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 13:57:10 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 13:57:10 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 13:57:10 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 14:03:42 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 14:03:42 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 14:03:42 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 14:05:55 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 14:05:55 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 14:05:55 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 14:06:34 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 14:06:34 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 14:06:34 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 14:08:40 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 14:08:40 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 14:08:40 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 14:35:47 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 14:35:47 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 14:35:47 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 16:05:30 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 16:05:30 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 16:05:30 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 16:05:42 #4 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-01-26 16:06:24 #5 type.registry] 
+New type java.util.ArrayList<web.model.Customer>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 16:10:38 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 16:10:38 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 16:10:38 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 16:10:44 #4 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-01-26 16:11:05 #5 type.registry] 
+New type java.util.ArrayList<web.model.Customer>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 16:17:33 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 16:17:33 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 16:17:33 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 16:43:50 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 16:43:50 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 16:43:50 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 16:46:22 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 16:46:22 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 16:46:22 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 16:46:45 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 16:46:45 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 16:46:45 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 16:54:16 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 16:54:16 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 16:54:16 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 16:57:09 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 16:57:09 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 16:57:09 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 16:57:10 #4 type.registry] 
+New type java.util.ArrayList<web.model.Car>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 18:47:40 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 18:47:40 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 18:47:40 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 19:48:32 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 19:48:32 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 19:48:32 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 19:53:36 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 19:53:36 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 19:53:36 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 19:55:32 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 19:55:32 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 19:55:32 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 19:57:43 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 19:57:43 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 19:57:43 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:00:52 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:00:53 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:00:53 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:03:16 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:03:16 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:03:16 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:05:37 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:05:37 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:05:37 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:06:37 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:06:37 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:06:37 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:11:46 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:11:46 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:11:46 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:23:11 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:23:11 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:23:11 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:30:17 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:30:17 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:30:17 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:34:39 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:34:39 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:34:39 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:38:42 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:38:42 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:38:42 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:43:24 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:43:24 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:43:24 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:44:19 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:44:19 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:44:19 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 20:48:37 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 20:48:37 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 20:48:37 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:15:04 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:15:04 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:15:04 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:18:10 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:18:10 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:18:10 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:21:03 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:21:03 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:21:03 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:24:37 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:24:37 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:24:37 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:31:42 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:31:42 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:31:42 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:34:44 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:34:44 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:34:44 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:35:25 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:35:25 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:35:25 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:37:39 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:37:39 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:37:39 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:39:50 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:39:50 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:39:50 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:42:42 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:42:42 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:42:42 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:47:26 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:47:26 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:47:26 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:51:22 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:51:22 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:51:22 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:54:52 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:54:52 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:54:52 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 21:57:16 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 21:57:16 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 21:57:16 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 22:10:52 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 22:10:52 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 22:10:52 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 22:24:52 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 22:24:52 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 22:24:52 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 22:28:53 #4 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.WVP.g(WVP.java:603)
+	at com.objectdb.o.WVP.h(WVP.java:548)
+	at com.objectdb.o.WVP.f(WVP.java:433)
+	at com.objectdb.o.WVP.c(WVP.java:379)
+	at com.objectdb.o.WVP.b(WVP.java:261)
+	at com.objectdb.o.WVP.e(WVP.java:164)
+	at com.objectdb.o.WHP.c(WHP.java:352)
+	at com.objectdb.o.WHP.e(WHP.java:255)
+	at com.objectdb.o.WHP.b(WHP.java:187)
+	at com.objectdb.o.WHP.b(WHP.java:123)
+	at com.objectdb.o.QPN.g(QPN.java:88)
+	at com.objectdb.o.QRC.j(QRC.java:213)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-26 22:28:53 #5 query] 
+Error during query execution: SELECT obj FROM Customer obj where obj.cars is null(null)
+
+[2020-01-26 22:28:53 #6 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.WVP.g(WVP.java:603)
+	at com.objectdb.o.WVP.h(WVP.java:548)
+	at com.objectdb.o.WVP.f(WVP.java:433)
+	at com.objectdb.o.WVP.c(WVP.java:379)
+	at com.objectdb.o.WVP.b(WVP.java:261)
+	at com.objectdb.o.WVP.e(WVP.java:164)
+	at com.objectdb.o.WHP.c(WHP.java:352)
+	at com.objectdb.o.WHP.e(WHP.java:255)
+	at com.objectdb.o.WHP.b(WHP.java:187)
+	at com.objectdb.o.WHP.b(WHP.java:123)
+	at com.objectdb.o.QPN.g(QPN.java:88)
+	at com.objectdb.o.QRC.j(QRC.java:213)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-26 22:29:40 #1 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-26 22:29:40 #2 type] 
+Type web.model.Customer is not enhanced.
+
+[2020-01-26 22:29:40 #3 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-26 22:29:42 #4 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.WVP.g(WVP.java:603)
+	at com.objectdb.o.WVP.h(WVP.java:548)
+	at com.objectdb.o.WVP.f(WVP.java:433)
+	at com.objectdb.o.WVP.c(WVP.java:379)
+	at com.objectdb.o.WVP.b(WVP.java:261)
+	at com.objectdb.o.WVP.e(WVP.java:164)
+	at com.objectdb.o.WHP.c(WHP.java:352)
+	at com.objectdb.o.WHP.e(WHP.java:255)
+	at com.objectdb.o.WHP.b(WHP.java:187)
+	at com.objectdb.o.WHP.b(WHP.java:123)
+	at com.objectdb.o.QPN.g(QPN.java:88)
+	at com.objectdb.o.QRC.j(QRC.java:213)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-26 22:29:42 #5 query] 
+Error during query execution: SELECT obj FROM Customer obj where obj.cars is null(null)
+
+[2020-01-26 22:29:42 #6 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.WVP.g(WVP.java:603)
+	at com.objectdb.o.WVP.h(WVP.java:548)
+	at com.objectdb.o.WVP.f(WVP.java:433)
+	at com.objectdb.o.WVP.c(WVP.java:379)
+	at com.objectdb.o.WVP.b(WVP.java:261)
+	at com.objectdb.o.WVP.e(WVP.java:164)
+	at com.objectdb.o.WHP.c(WHP.java:352)
+	at com.objectdb.o.WHP.e(WHP.java:255)
+	at com.objectdb.o.WHP.b(WHP.java:187)
+	at com.objectdb.o.WHP.b(WHP.java:123)
+	at com.objectdb.o.QPN.g(QPN.java:88)
+	at com.objectdb.o.QRC.j(QRC.java:213)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-26 22:29:44 #7 client] 
+java.lang.NullPointerException
+	at com.objectdb.o.WVP.g(WVP.java:603)
+	at com.objectdb.o.WVP.h(WVP.java:548)
+	at com.objectdb.o.WVP.f(WVP.java:433)
+	at com.objectdb.o.WVP.c(WVP.java:379)
+	at com.objectdb.o.WVP.b(WVP.java:261)
+	at com.objectdb.o.WVP.e(WVP.java:164)
+	at com.objectdb.o.WHP.c(WHP.java:352)
+	at com.objectdb.o.WHP.e(WHP.java:255)
+	at com.objectdb.o.WHP.b(WHP.java:187)
+	at com.objectdb.o.WHP.b(WHP.java:123)
+	at com.objectdb.o.QPN.g(QPN.java:88)
+	at com.objectdb.o.QRC.j(QRC.java:213)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+
+[2020-01-26 22:29:44 #8 query] 
+Error during query execution: SELECT obj FROM Customer obj where obj.cars is null(null)
+
+[2020-01-26 22:29:44 #9 *] 
+java.lang.NullPointerException
+	at com.objectdb.o.WVP.g(WVP.java:603)
+	at com.objectdb.o.WVP.h(WVP.java:548)
+	at com.objectdb.o.WVP.f(WVP.java:433)
+	at com.objectdb.o.WVP.c(WVP.java:379)
+	at com.objectdb.o.WVP.b(WVP.java:261)
+	at com.objectdb.o.WVP.e(WVP.java:164)
+	at com.objectdb.o.WHP.c(WHP.java:352)
+	at com.objectdb.o.WHP.e(WHP.java:255)
+	at com.objectdb.o.WHP.b(WHP.java:187)
+	at com.objectdb.o.WHP.b(WHP.java:123)
+	at com.objectdb.o.QPN.g(QPN.java:88)
+	at com.objectdb.o.QRC.j(QRC.java:213)
+	at com.objectdb.o.QRM.ZX(QRM.java:273)
+	at com.objectdb.o.MST.ZX(MST.java:1019)
+	at com.objectdb.o.WRA.ZX(WRA.java:313)
+	at com.objectdb.o.WSM.ZX(WSM.java:117)
+	at com.objectdb.o.STC.h(STC.java:465)
+	at com.objectdb.o.SHN.I(SHN.java:491)
+	at com.objectdb.o.SHN.w(SHN.java:157)
+	at com.objectdb.o.HND.run(HND.java:134)
+	at java.lang.Thread.run(Unknown Source)
+

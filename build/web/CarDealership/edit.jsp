@@ -13,7 +13,7 @@
         <title>Editar</title>
     </head>
     <body>
-        <h1>Editar Concesionario</h1>
+        <h1>Editar Concesionario </h1>
 	<table>
 		<tr>
 			<td><a href="CarDealerships?action=list" >Ir atrás</a> </td>

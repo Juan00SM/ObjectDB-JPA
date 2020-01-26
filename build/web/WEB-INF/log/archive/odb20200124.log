@@ -1296,3 +1296,36 @@ Type web.model.Car is not enhanced.
 [2020-01-24 07:58:30 #3 type] 
 Type web.model.Customer is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 08:44:53 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 08:44:53 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 08:44:53 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 09:46:38 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 09:46:38 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 09:46:38 #3 type] 
+Type web.model.Customer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-01-24 10:01:36 #1 type] 
+Type web.model.Car_Dealership is not enhanced.
+
+[2020-01-24 10:01:36 #2 type] 
+Type web.model.Car is not enhanced.
+
+[2020-01-24 10:01:36 #3 type] 
+Type web.model.Customer is not enhanced.
+

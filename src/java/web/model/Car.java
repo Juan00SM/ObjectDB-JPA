@@ -42,7 +42,7 @@ public class Car extends Parent implements Serializable {
 
     @ManyToOne
     @JoinColumn(name = "carDealershipID", nullable = false)
-    private Car_Dealership car_dealership;
+    private Car_Dealership car_dealerships;
 
     @ManyToMany(targetEntity = web.model.Customer.class)
     private List<Customer> customers;
@@ -61,15 +61,24 @@ public class Car extends Parent implements Serializable {
     }
 
     public boolean removeCustomer(Long id) {
-        int count = 0;
-        for (Customer customer : customers) {
-            if (customer.getId() == id) {
-                this.customers.remove(count);
-                return true;
+        if (id != -1) {
+            int count = 0;
+            for (Customer cust : this.customers) {
+                if (cust.getId() == id) {
+                    this.customers.remove(count);
+                    return true;
+                }
+                count++;
             }
-            count++;
+            return false;
+        } else {
+            int count = 0;
+            for (Customer cust : this.customers) {
+                this.customers.remove(count);
+                count++;
+            }
+            return true;
         }
-        return false;
     }
 
     public Long getId() {
@@ -97,11 +106,11 @@ public class Car extends Parent implements Serializable {
     }
 
     public Car_Dealership getCarDealership() {
-        return car_dealership;
+        return car_dealerships;
     }
 
     public void setCarDealership(Car_Dealership carDealership) {
-        this.car_dealership = carDealership;
+        this.car_dealerships = carDealership;
     }
 
     public String getCarmake() {
@@ -139,7 +148,7 @@ public class Car extends Parent implements Serializable {
     @Override
     public String toString() {
         return "Car{" + "id=" + id + ", signingDate=" + signingDate + ", carmake=" + carmake + ", model=" + model + ", seats=" + seats + ", depositCapacity="
-                + depositCapacity + ", carDealership=" + car_dealership.getId() + "_" + car_dealership.getName() + ", customer=" + customers.size() + '}';
+                + depositCapacity + ", carDealership=" + car_dealerships.getId() + "_" + car_dealerships.getName() + ", customer=" + customers.size() + '}';
     }
 
     @Override

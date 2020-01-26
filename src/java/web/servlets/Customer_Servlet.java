@@ -68,6 +68,15 @@ public class Customer_Servlet extends HttpServlet {
                 case "listrented":
                 listRented(request, response);
                 break;
+                case "removecar":
+                removeCar(request, response);
+                break;
+            case "listcars":
+                listCars(request, response);
+                break;
+            case "newcar":
+                newCar(request, response);
+                break;
             default:
                 break;
         }
@@ -79,7 +88,38 @@ public class Customer_Servlet extends HttpServlet {
             throws ServletException, IOException {
         doGet(request, response);
     }
+    private void listCars(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/Customer/rented.jsp");
+        Long id = request.getParameter("id")==null?(Long)request.getAttribute("id"):Long.parseLong(request.getParameter("id"));
+        List<Car> list = this.dao.getAllObjectbyIdClass(Car.class, Customer.class, id,true);
+        request.setAttribute("list", list);
+        List<Car> cars = this.dao.getAllObjectbyIdClass(Car.class, Customer.class, id,false);
+        request.setAttribute("cars", cars);
+        request.setAttribute("id", id);
+        dispatcher.forward(request, response);
+    }
+
+    private void newCar(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        Long idc = Long.parseLong(request.getParameter("carselect"));
+        Long id = Long.parseLong(request.getParameter("id"));
+        Customer cust = (Customer)this.dao.getFindObject(Customer.class, id);
+        Car car = (Car)this.dao.getFindObject(Car.class, idc);
+        cust.addRentedCar(car);
+        this.dao.modifyUpdateObject(Customer.class, cust);
+        request.setAttribute("id", id);
+        listCars(request, response);
+    }
+    private void removeCar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if (!request.getParameter("idc").equals("all")) {
+            this.dao.removeObjectOfColletion(Long.parseLong(request.getParameter("idc")),Customer.class,Long.parseLong(request.getParameter("idcu")));
+        }else{
+            this.dao.removeObjectOfColletion(Long.parseLong("-1"),Customer.class,Long.parseLong(request.getParameter("idcu")));
+        }
+        request.setAttribute("id", Long.parseLong(request.getParameter("idcu")));
+        listCars(request, response);
+
+    }
     private void index(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
         dispatcher.forward(request, response);
@@ -111,9 +151,9 @@ public class Customer_Servlet extends HttpServlet {
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/Customer/rented.jsp");
 
-        List<Car> list = this.dao.getAllObjectbyClass(Car.class, Customer.class, Long.parseLong(request.getParameter("id")), true);
+        List<Car> list = this.dao.getAllObjectbyIdClass(Car.class, Customer.class, Long.parseLong(request.getParameter("id")), true);
         request.setAttribute("list", list);
-        request.setAttribute("id", request.getParameter("id"));
+        request.setAttribute("id", Long.parseLong(request.getParameter("id")));
         dispatcher.forward(request, response);
     }
 
@@ -136,7 +176,7 @@ public class Customer_Servlet extends HttpServlet {
 
     private void remove(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         if (!request.getParameter("id").equals("all")) {
-            this.dao.removeDeleteObject(Customer.class, Long.parseLong(request.getParameter("id")));
+            this.dao.removeDeleteObjectByClass(Customer.class, Long.parseLong(request.getParameter("id")));
         } else {
             this.dao.removeDeleteObjectAll(Customer.class);
         }

@@ -36,7 +36,7 @@ public class Customer extends Parent implements Serializable{
     private int age;
     
     @ManyToMany(targetEntity = web.model.Car.class, mappedBy = "customers")
-    private List<Car> rentedCars;
+    private List<Car> cars;
 
     public Customer(String name, String lastName, String dni, int age) {
         this.signingDate = new Date(System.currentTimeMillis());
@@ -44,23 +44,32 @@ public class Customer extends Parent implements Serializable{
         this.lastName = lastName;
         this.dni = dni;
         this.age = age;
-        this.rentedCars = new ArrayList<>();
+        this.cars = new ArrayList<>();
     }
 
     public boolean addRentedCar(Car car){
-        return this.rentedCars.add(car);
+        return this.cars.add(car);
     }
     
     public boolean removeRentedCar(Long id){
-        int count = 0;
-        for (Car rentedCar : rentedCars) {
-            if (rentedCar.getId() == id) {
-                this.rentedCars.remove(count);
-                return true;
+        if (id != -1) {
+            int count = 0;
+            for (Car car : this.cars) {
+                if (car.getId() == id) {
+                    this.cars.remove(count);
+                    return true;
+                }
+                count++;
             }
-            count++;
+            return false;
+        } else {
+            int count = 0;
+            for (Car car : this.cars) {
+                this.cars.remove(count);
+                count++;
+            }
+            return true;
         }
-        return false;
     }
     public Date getSigningDate() {
         return signingDate;
@@ -103,11 +112,11 @@ public class Customer extends Parent implements Serializable{
     }
 
     public List<Car> getRentedCars() {
-        return rentedCars;
+        return cars;
     }
 
     public void setRentedCars(List<Car> rentedCars) {
-        this.rentedCars = rentedCars;
+        this.cars = rentedCars;
     }
     
     public Long getId() {
@@ -121,7 +130,7 @@ public class Customer extends Parent implements Serializable{
     @Override
     public String toString() {
         return "Customer{" + "id=" + id + ", signingDate=" + signingDate + ", name=" + name + ", lastName=" + lastName 
-                + ", dni=" + dni + ", age=" + age + ", rentedCars=" + rentedCars.size() + '}';
+                + ", dni=" + dni + ", age=" + age + ", rentedCars=" + cars.size() + '}';
     }
 
     @Override
@@ -134,7 +143,7 @@ public class Customer extends Parent implements Serializable{
         this.setDni(v.getDni());
         this.setLastName(v.getLastName());
         
-        for (Car car : this.rentedCars) {
+        for (Car car : this.cars) {
             ids.add(car.getId());
         }
         for (Car car2 : v.getRentedCars()) {
